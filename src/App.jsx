@@ -1,4 +1,4 @@
-import { Section, Container, Header, Form, TodoList } from 'components';
+import { Section, Container, Header, Form, TodoList, Filter } from 'components';
 
 export const App = () => {
   return (
@@ -7,6 +7,7 @@ export const App = () => {
       <Section>
         <Container>
           <Form />
+          <Filter />
           <TodoList />
         </Container>
       </Section>
